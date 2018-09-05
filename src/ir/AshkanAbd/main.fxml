@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0"
+            prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+    <TextField fx:id="pathText" layoutX="50.0" layoutY="50.0" prefWidth="400" promptText="PDF path"/>
+    <Button fx:id="pathBrowse" layoutX="460.0" layoutY="50.0" mnemonicParsing="false" prefWidth="100" text="Browse"/>
+    <TextField fx:id="outputText" layoutX="50.0" layoutY="150.0" prefWidth="400" promptText="output path"/>
+    <Button fx:id="outputBrowse" layoutX="460.0" layoutY="150.0" mnemonicParsing="false" prefWidth="100" text="Browse"/>
+    <Button fx:id="extract" layoutX="270.0" layoutY="244.0" mnemonicParsing="false" prefWidth="100" text="Extract"/>
+</AnchorPane>
